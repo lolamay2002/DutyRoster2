@@ -57,33 +57,3 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2; /* Alternate row color */
 }
-
-/* Additional CSS styles for the Duty Roster table */
-#duty-roster-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-#duty-roster-table, th, td {
-    border: 1px solid #ccc; /* Table borders */
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    vertical-align: top; /* Align cell content to the top */
-}
-
-th {
-    background-color: #f2f2f2; /* Table header background color */
-}
-
-tr {
-    background-color: #fff; /* Default row background color */
-    margin-bottom: 10px; /* Add extra spacing between rows */
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2; /* Alternate row color */
-}
