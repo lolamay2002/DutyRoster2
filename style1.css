@@ -1,0 +1,59 @@
+/* Reset some default styles */
+body, h1, h2, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+}
+
+header {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Header shadow */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#duty-roster-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Section background color */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Section shadow */
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#duty-roster-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#duty-roster-table, th, td {
+    border: 1px solid #ccc; /* Table borders */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Table header background color */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+}
